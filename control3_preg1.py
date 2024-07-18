@@ -2,8 +2,8 @@ def solo_numeros(var):
     if not var:   
       return False
     
-    for char in var:
-        if char < '0' or char > '9':
+    for str in var:
+        if str < '0' or str > '9':
             return False 
     return True 
 
